@@ -1,0 +1,23 @@
+{
+	"name": "Theme-PhilMonokai",
+	"displayName": "Phil Monokai Theme",
+	"description": "Phil Monokai Theme for VS Code based on the TextMate themes.",
+	"version": "0.0.3",
+	"publisher": "ppuleo",
+	"engines": {
+		"vscode": "^1.5.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+	  "themes": [
+      {
+	      "label": "Theme-PhilMonokai",
+	      "uiTheme": "vs-dark",
+      "path": "./themes/Phil_Monokai.tmTheme"
+      }
+  	]
+	},
+	"icon": "icon.png"
+}
